@@ -172,11 +172,11 @@ function runTodoApp() {
             break;
           case "5": // Exit App
             // 4. Tangani perintah 'exit' untuk menghentikan loop aplikasi
-            console.log("Terima kasih sudah menggunakan aplikasi ini...");
+            console.log("Thank you for using this application...");
             running = false; // Stop running
         }
       } else {
-        console.log("Nomor Menu tidak valid!");
+        console.log("The Menu number is not valid!");
       }
     }
     // 5. Tangani input perintah yang tidak valid
